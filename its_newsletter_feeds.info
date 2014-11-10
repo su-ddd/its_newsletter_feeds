@@ -1,0 +1,13 @@
+name = IT Services Newsletter Feeds
+description = Feeds providing articles and issues for the UIT Newsletter
+core = 7.x
+package = IT Services
+version = 7.x-1.1
+project = its_newsletter_feeds
+dependencies[] = views
+dependencies[] = views_xml
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = newsletter_article_feed
+features[views_view][] = newsletter_issues_feed
+features_exclude[dependencies][ctools] = ctools

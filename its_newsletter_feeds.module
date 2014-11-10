@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the IT Services Newsletter Feeds feature.
+ */
+
+include_once 'its_newsletter_feeds.features.inc';
