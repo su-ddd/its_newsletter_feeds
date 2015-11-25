@@ -47,6 +47,12 @@ function its_newsletter_feeds_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  /* Field: Content: Subtitle */
+  $handler->display->display_options['fields']['field_newsletter_subtitle']['id'] = 'field_newsletter_subtitle';
+  $handler->display->display_options['fields']['field_newsletter_subtitle']['table'] = 'field_data_field_newsletter_subtitle';
+  $handler->display->display_options['fields']['field_newsletter_subtitle']['field'] = 'field_newsletter_subtitle';
+  $handler->display->display_options['fields']['field_newsletter_subtitle']['label'] = '';
+  $handler->display->display_options['fields']['field_newsletter_subtitle']['element_label_colon'] = FALSE;
   /* Field: Field: Date */
   $handler->display->display_options['fields']['field_date']['id'] = 'field_date';
   $handler->display->display_options['fields']['field_date']['table'] = 'field_data_field_date';
